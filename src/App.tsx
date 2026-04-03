@@ -1137,7 +1137,7 @@ export default function App() {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="fixed bottom-8 right-8 z-[150] w-14 h-14 bg-[#FF4800] text-white rounded-2xl flex items-center justify-center shadow-2xl shadow-[#FF4800]/40 hover:bg-[#FF6A00] transition-colors"
+            className="fixed bottom-8 right-8 z-[150] w-14 h-14 bg-[#1a1a1a] text-white rounded-2xl flex items-center justify-center shadow-2xl shadow-black/20 hover:bg-black transition-colors"
           >
             <ChevronUp size={28} />
           </motion.button>
